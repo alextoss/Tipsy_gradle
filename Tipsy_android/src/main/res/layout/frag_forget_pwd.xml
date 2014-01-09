@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/forget"
+        android:id="@+id/text"
+        android:layout_gravity="center_vertical" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/input_email_forget"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="-1"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Email" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bar_height"
+        android:text="Réinitialisation"
+        android:id="@+id/resetpwd"
+        android:layout_below="@+id/input_email_forget"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

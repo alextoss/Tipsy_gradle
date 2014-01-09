@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/ui_margin">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Titre transaction"
+            android:id="@+id/titre"
+            android:layout_weight="4"
+            android:gravity="center_vertical|left" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="17€"
+            android:id="@+id/montant"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="sous-titre"
+            android:id="@+id/sous_titre"
+            android:layout_weight="4"
+            android:gravity="center_vertical|left" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="17 Juil"
+            android:id="@+id/date"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right" />
+    </TableRow>
+
+</TableLayout>

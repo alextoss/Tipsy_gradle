@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tipsy</string>
+    <string-array name="menu_membre">
+        <item>Tableau de bord</item>
+        <item>Mon Compte</item>
+        <item>Solde</item>
+        <item>Événements</item>
+        <item>Aide</item>
+        <item>Déconnexion</item>
+    </string-array>
+    <string-array name="menu_organisateur">
+        <item>Tableau de bord</item>
+        <item>Mon Compte</item>
+        <item>Événements</item>
+        <item>Aide</item>
+        <item>Déconnexion</item>
+    </string-array>
+    <string name="creer_event">Créer un événement</string>
+    <string name="drawer_open">Ouvrir le menu déroulant</string>
+    <string name="drawer_close">Fermer le menu déroulant</string>
+    <string name="app_not_available">Erreur</string>
+    <string name="action_settings">Options</string>
+    <string name="search">"Rech. d\'événements"</string>
+    <string name="next">"Passer"</string>
+    <string name="connection">"Connexion"</string>
+    <string name="disconnection">"Déconnexion"</string>
+    <string name="email">"Email"</string>
+    <string name="inscription">"Inscription"</string>
+    <string name="conditions">"En m'inscrivant,
+j'accepte les conditions générales."</string>
+    <string name="welcome">"Bienvenue sur Tipsy !"</string>
+    <string name="second_description">"Valentin Connard !!"</string>
+    <string name="third_description">"Valentin Connard !!"</string>
+    <string name="affichermdp">"Afficher le mot de passe"</string>
+    <string name="forgotpass">"Mot de passe oublié ?"</string>
+    <string name="loading">"Chargement"</string>
+    <string name="failed_connexion">Email ou Mot de Passe Incorrect</string>
+    <string name="ok">OK</string>
+    <string name="help">En savoir plus</string>
+    <string name="stats">Statistiques</string>
+
+
+    <string name="no_upcoming_event">Aucun événement à venir.</string>
+    <string name="billetterie">Billetterie</string>
+    <string name="bar">Bar</string>
+    <string name="acces">Contrôle d\'accès</string>
+    <string name="infos">Informations</string>
+
+    <string name="nom_billet">Nom du billet</string>
+    <string name="prix">Prix</string>
+
+    <string name="cancel">Annuler</string>
+    <string name="edit_billet_title">Mon tarif</string>
+    <string name="profil">Mon Compte</string>
+    <string name="searchByDate">Rechercher par date</string>
+    <string name="orgasign">Vous êtes organisateur ?</string>
+    <string name="prix_total">TOTAL</string>
+    <string name="acheter">ACHETER</string>
+    <string name="solde">Solde</string>
+    <string name="dernieres_transactions">Dernières transactions</string>
+    <string name="forget">Merci d\'entrer votre adresse email, nous vous enverrons un nouveau mot de passe.</string>
+    <string name="payer">PAYER</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Début de l'événement"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_height"
+        android:gravity="center_vertical|center_horizontal">
+
+        <!--
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="Date"
+            android:drawableLeft="@drawable/ic_action_go_to_today"
+            android:id="@+id/button_date_debut"
+            android:layout_weight="3"
+            android:gravity="center_vertical|left"
+            android:background="@color/background"
+            style="@android:style/Widget.Holo.Spinner"  />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="Heure"
+            android:drawableLeft="@drawable/ic_action_time"
+            android:id="@+id/button_time_debut"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_weight="2"
+            android:gravity="center_vertical|left"
+            android:background="@color/background"
+            style="@android:style/Widget.Holo.Spinner" />
+        -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_go_to_today" />
+
+        <TextView
+            android:id="@+id/input_date_debut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            style="@android:style/Widget.Holo.Spinner" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_time"
+            android:layout_marginLeft="@dimen/activity_margin" />
+
+        <TextView
+            android:id="@+id/input_time_debut"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            style="@android:style/Widget.Holo.Spinner" />
+    </LinearLayout>
+
+</LinearLayout>

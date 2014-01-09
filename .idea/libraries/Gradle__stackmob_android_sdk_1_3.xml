@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: stackmob-android-sdk-1.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Tipsy_android/libs/stackmob-android-sdk-1.3.5" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

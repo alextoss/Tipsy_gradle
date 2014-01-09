@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/resume_upcoming_event"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_upcoming_height"
+                android:text="New Text"
+                android:id="@+id/text_upcoming"
+                android:layout_column="0"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="16dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:id="@+id/button_new_event"
+                android:text="@string/creer_event"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:layout_span="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:text="@string/stats"
+                android:id="@+id/button_stats"
+                android:layout_weight="1"
+                android:layout_span="1"
+                android:layout_column="1" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

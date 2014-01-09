@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#eeeeee</color>
+    <color name="background_menu">#ffffff</color>
+    <color name="text">#ffffff</color>
+    <color name="text_menu">#0099cc</color>
+    <color name="text_hint">#a8d6e7</color>
+    <color name="text_disable">#6a858f</color>
+    <color name="button_blue_unpressed">#d00099cc</color>
+    <color name="button_blue_pressed">#f0ffffff</color>
+    <color name="button_red_unpressed">#d00099cc</color>
+    <color name="button_red_pressed">#f0ffffff</color>
+    <color name="text_pressed">#0099cc</color>
+    <color name="background_loading">#DCDDD8</color>
+    <color name="text_loading">#354B5E</color>
+    <color name="event_fade">#000000</color>
+
+</resources>

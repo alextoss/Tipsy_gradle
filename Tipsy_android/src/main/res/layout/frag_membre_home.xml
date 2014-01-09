@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/ui_margin"
+        android:paddingLeft="@dimen/ui_margin">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/button_wallet"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0€"
+                    android:textColor="@color/background_menu"
+                    android:id="@+id/solde"
+                    android:textSize="48dp"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/solde"
+                    android:textColor="@color/background_menu"
+                    android:id="@+id/textView2" />
+            </LinearLayout>
+            <!--
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/button_account"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="@dimen/bar_height"
+                    android:layout_height="@dimen/bar_height"
+                    android:src="@drawable/ic_action_person"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_menu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/profil"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+            -->
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/button_account"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="@dimen/bar_height"
+                    android:layout_height="@dimen/bar_height"
+                    android:src="@drawable/ic_action_person"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_menu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/profil"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:id="@+id/button_acces"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/bar_height"
+                    android:layout_height="@dimen/bar_height"
+                    android:src="@drawable/ic_action_network_wifi"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_menu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Bracelet"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

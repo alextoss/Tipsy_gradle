@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/ui_margin"
+        android:paddingLeft="@dimen/ui_margin">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/button_billetterie"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:layout_span="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/bar_height"
+                    android:layout_height="@dimen/bar_height"
+                    android:src="@drawable/ic_action_labels"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_menu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/billetterie"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/button_bar"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:layout_weight="1"
+                android:layout_span="1"
+                android:layout_column="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/bar_height"
+                    android:layout_height="@dimen/bar_height"
+                    android:src="@drawable/ic_action_view_as_list"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_menu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/bar"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:id="@+id/button_acces"
+                android:layout_weight="1"
+                android:layout_span="1"
+                android:layout_column="0"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/bar_height"
+                    android:layout_height="@dimen/bar_height"
+                    android:src="@drawable/ic_action_paste"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_menu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/acces"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/home_button_height"
+                android:id="@+id/button_infos"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:layout_span="1"
+                android:layout_gravity="top"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@color/text_menu"
+                android:baselineAligned="true"
+                android:layout_marginBottom="@dimen/ui_margin"
+                android:layout_marginRight="@dimen/ui_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/bar_height"
+                    android:layout_height="@dimen/bar_height"
+                    android:src="@drawable/ic_action_about"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background_menu"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/infos"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
